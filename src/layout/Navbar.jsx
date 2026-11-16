@@ -34,7 +34,7 @@ export const Navbar = () => {
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary"
         >
-          KCS<span className="text-primary">.</span>
+          KS<span className="text-primary"></span>
         </a>
 
         {/* Desktop Nav */}

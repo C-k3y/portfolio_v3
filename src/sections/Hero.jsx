@@ -18,6 +18,7 @@ const skills = [
   "TypeScript",
   "Tailwind CSS",
   "Node.js",
+  "Express.js",
   "REST APIs",
   "PostgreSQL",
   "MySQL",
