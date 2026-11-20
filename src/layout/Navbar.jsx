@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 const navLinks = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
-  { href: "#testimonials", label: "Testimonials" },
+  { href: "#career", label: "Career" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export const Navbar = () => {
@@ -54,7 +54,7 @@ export const Navbar = () => {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button size="sm">Contact Me</Button>
+          <Button size="sm" href="#contact">Contact Me</Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -81,7 +81,7 @@ export const Navbar = () => {
               </a>
             ))}
 
-            <Button onClick={() => setIsMobileMenuOpen(false)}>
+            <Button onClick={() => setIsMobileMenuOpen(false)} href="contact">
               Contact Me
             </Button>
           </div>
